@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ORPHAN'S DOMICILE</title> 
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"> 
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">  
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+        
+   </head>
+     <body>
+           
+               <nav>
+                   
+                   <label class="logo"><span>ORPHAN'S DOMICILE</span></label>
+              
+                    <ul> 
+                        <li ><a class="active" href="#">HOME</a></li>
+                        <li ><a href=#AB>ABOUT </a> </li>
+                        <li ><a href=#AB>CONtact </a></li>
+                        <li ><a href="#BC">DONATE</a></li>
+                    </ul>
+               </nav>
+               <hr >
+            
+           <img name="slide"/>
+
+            
+           <script type="text/javascript">
+            var i= 0;
+            var images= [];
+            var time= 3000;
+
+            images[0]="img/don4.jpg";
+            images[1]="img/pict_featured_jumbo.jpg";
+            images[2]="img/3rd-world-asia-children-joy-wallpaper-preview.jpg";
+           
+
+          
+
+            function changeImg(){
+                document.slide.src= images[i];
+
+                if(i< images.length -1){
+                    i++;
+
+                }
+                else{
+                    i=0;
+                }
+                setTimeout("changeImg()",time);
+            }
+            window.onload = changeImg;
+
+          </script>
+       <div class="M">
+         <div id="AB">
+          <table width="100%" style="text-align:center ;">
+              
+              
+              <tr>
+                <div class="jk">
+                <td id="mm" ><h3 align="center"> ABOUT</h3><br>
+                <p style="color: aliceblue;">Your contribution at <span>ORPHAN'S DOMICILE</span> website has the power to uplift children in dire situation and who have lost their dear one's. We are working towards a nation where children live a secure life, full of opportunities for growth & development. We can't help everyone, but everyone can help someone.
+               </p></td>
+                <td id="jk"><h3 align="center">CONTACT</h3><br>
+                  <P align="center" style="color: aliceblue;">JEEVAN KUMAR B R</P>
+                  <i class="fa fa-envelope" style="font-size:24px ;color: aliceblue;"> jeevankumar9036@gmail.com</i>
+                 
+
+                </td>
+              </div>
+              </tr>
+
+
+          </table>
+          <div class="don"style="width: 100%;margin-top: 10%;">
+              TOGETHER WE CAN<br>
+              
+              <div id="BC"  align="center">
+                <a class="donate" href="https://rzp.io/l/3TazOC7MB">DONATE</a>
+                </div>
+          </div>
+        </div></a>
+          
+                  
+        </div>
+
+        <div class="footer-bottom">
+          Home-About-Contact-Donate |	
+            &copy; 2021 DONATION WEBSITE
+          </div>
+        </body> 
+</html>

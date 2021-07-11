@@ -1,0 +1,152 @@
+body{
+ 
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+*{
+    padding:0;
+    margin:0;
+text-decoration:none;
+    list-style:none;
+}
+nav{
+    width:100%;
+    height:100%;
+    background-color: rgb(0, 0, 0);
+    padding:0;
+    spacing:0;
+}
+nav ul {
+    float:right;
+    display:inline-block;
+    margin-right: 20px;
+    margin-bottom: 0;
+}
+li{
+    display: inline-block;
+    line-height:70px;
+}
+label.logo{
+	color:white;
+	font-size:35px;
+	line-height:80px;
+	padding:0 100px;
+	font-weight:bold;
+}
+nav ul li a{
+	color:white;
+	font-size:30px;
+	padding:7px 13px;
+	border-radius:3px;
+	text-transform:uppercase;
+}
+img{
+    width:100%;
+    height:50%;
+    display:block;
+  
+    padding: 0;
+    margin-top: 0;
+
+}
+a.active , a:hover{
+    background:brown;
+    transition:0.5s;
+}
+table{
+    padding:0;
+}
+th{
+    font-size:xxx-large;
+}
+td{
+    font-size: x-large;
+}
+
+.don{
+    padding-top:150px;
+    text-align: center;
+    font-size:xxx-large
+}
+.M { background-image: url("img/orphan-unhappy-boy-sitting-park-bench-crying-lonely-young-45928976.jpg");
+     background-repeat: no-repeat;
+     width: 100%;
+    background-size: 100%;
+}
+#AB{
+    color:rgb(0, 0, 0);
+}
+.jk{
+    font-family: 'Zen Tokyo Zoo', cursive;
+   
+}
+
+.footer-bottom{
+    background: rgb(0, 0, 0);
+    color:white;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: bottom;
+    bottom: 0px;
+    left:0px;
+    padding-top: 20px;
+}
+.donate {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    width: 200px;
+    font-size:xx-large;
+    background-color: rgb(236, 245, 253,1.0);
+    text-decoration: none;
+    color: rgb(46, 12, 78);
+    /* color: white; */
+    border-radius: 70px;
+    box-shadow: 0px 0px 20px 1px rgb(0,0,0,5);
+  }
+  .donate:hover {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    width: 200px;
+    font-size:xx-large;
+    color: white;
+    backdrop-filter: blur(5px);
+    background-color: rgb(236, 245, 253,0.1);
+    text-decoration: none;
+    /* color: initial; */
+    border-radius: 70px;
+  }
+  #id:hover{
+    backdrop-filter: blur(5px);
+    border-radius: 70px;
+    color: white;
+  }
+  #mm{
+      width:50%;
+      margin-top:100%;
+      padding:30px 30px 30px;
+      margin:auto;
+      color:black ;
+      text-align:center;
+      border-radius:5px;
+      text-align:justify;
+    
+      box-shadow:0px 0px 20px 1px rgb(0,0,0,5);
+  }    
+  
+  #jk{
+      float :right;
+    width:auto;
+    margin-top:100%;
+    padding:30px 30px 30px;
+    margin:auto;
+    color:black ;
+    text-align:center;
+    border-radius:5px;
+    text-align:justify;
+  
+    box-shadow:0px 0px 20px 1px rgb(0,0,0,5);
+}  
